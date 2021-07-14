@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  mariadb:
+    container_name: fasterize-mariadb
+    image: mariadb:10.3.30
+    volumes:
+      - "./mariadb-data:/var/lib/mysql"
+      - "./mariadb-share:/tmp/data"
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - DEPLOY_ENV=dev

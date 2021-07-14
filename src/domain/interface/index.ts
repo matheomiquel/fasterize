@@ -1,0 +1,1 @@
+export { FileInterface } from './File'

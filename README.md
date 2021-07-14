@@ -1,0 +1,2 @@
+#
+Je propose cette solution sous cette forme car je pense que elle est à la fois modulaire et n'est pas trop complexe. Mais cette solution manque de test unitaires. En ayant plus de temps j'aurais voulu augmenter le nombre de tests ainsi que la modularité du code ansi que ajouter un docker.
